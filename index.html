@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kate Emily Design</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+
+<!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-black bg-black">
+        <a class="navbar-brand" href="#"></a>
+        <style>
+            /* Style the buttons */
+            .nav-item {
+                border: none;
+                outline: none;
+                padding: 10px 16px;
+                background-color: black;
+                cursor: pointer;
+                font-size: 30px;
+            }
+             /* Style the active class, and buttons on mouse-over */
+            .active, .nav-item:hover {
+                background-color: #ed7a32;
+                color: #FFC8B0;
+                font-weight:bold;
+            }
+        </style>
+        <ul>
+        <div id="myDIV">
+            <button class="btn active">ABOUT</button>
+            <button class="btn">SKILLS</button>
+            <button class="btn">WORK</button>
+            <button class="btn">CONTACT</button>
+        </div>
+        </ul>  
+        <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myDIV");
+        var nav-item = header.getElementsByClassName("nav-item");
+        for (var i = 0; i < btns.length; i++) {
+            nav-item[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+            });
+        }
+        </script>
+    </nav>
+    <img src="images/LOGO_KateEmilyDesign.png" alt="LOGO_KateEmilyDesign" width="325" height="250">
+    </header>
+    <section class="heroImg">
+      <div class="content">
+            <img src="images/Hero Image - Kate w: flowers.png" alt="Hero Image" width="800" height="700"> 
+            <h1>Who Is Kate Emily?</h1>
+                <p>That would me, the impressive woman who is currently being considered for a position with your company. In addition to being me, I’m also a mom, daughter, sister, homeowner, and life-long learner who is working to trade in her admin hat for the more fashionable hero cape of the UX/UI Designer.</p>
+                <p>I love being creative and expressing myself through all things creative. I find the human brain fascinating, green texts hurt my eyes, and my OCD-ish perfectionism is my Archilles’ Heel. My ADHD is my greatest creativity-inducing asset, and I often find myself “in the Zone” after I’ve spent an hour or so working on a style tile, only to realize I’ve been working on it for five hours! In short, I love the design tools and processes as much as I love a good cheesecake (and that’s a lot).</p>
+                <p>My goal is to learn, learn more, and learn even more about UX/UI design. Additionally, I’d like to learn UX writing and add “and writer” to my title as well. Believe me when I say I have much to say… you know what I’m saying?</p>
+                <p>In closing, I would like to say, “Thank you (insert your name here). I look forward to speaking with you about the many things I can do to help your company grow into the wildly successful business you’ve all been working toward.”</p>
+                <button class="btn-primary:hover" type="submit">DOWNLOAD RESUME HERE</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>WORK</li>
+        <li>CONTACT</li>
+      </ul>
+    </footer>
+  </body>
+</html>

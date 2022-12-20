@@ -1,0 +1,83 @@
+body {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: medium;
+  color: #FFC8B0;
+}
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 250;
+  font-size: xxx-large;
+  color: #ed7a32;
+  background-color: black;
+}
+p {
+  font-weight: 100;
+  font-size: x-large;
+  color: #FFC8B0;
+  background-color: black;
+}
+header {
+  background-color: black;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: #FFC8B0;
+}
+header li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: black;
+  padding: 0px 15px;
+  align-items: center;
+}
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: black;
+  text-align: center;
+}
+button {
+  min-width: 125px;
+  margin-left: 15px;
+  padding: 10px;
+  background-color: #FFC8B0;
+  color: black;
+  font-size: 20px;
+  border-radius: 10px;
+}
+button:active {
+  padding: 10px;
+  background-color: #ED7A32;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+button:hover {
+  padding: 10px;
+  background-color: #ED7A32;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+footer {
+  background-color: black;
+  padding: 10px;
+  color: #FFC8B0;
+}
+footer ul {
+  list-style: none;
+  padding-left: 20px;
+  font-size: 20px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 15px;
+}
